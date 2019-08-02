@@ -1,0 +1,19 @@
+{
+  "name": "tzkm",
+  "version": "1.0.0",
+  "description": "tzolkin -> detectar kin maya",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/juannestebann1/TZKM.git"
+  },
+  "author": "juannestebann1",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/juannestebann1/TZKM/issues"
+  },
+  "homepage": "https://github.com/juannestebann1/TZKM#readme"
+}
