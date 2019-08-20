@@ -191,7 +191,7 @@ Oraculo.prototype.Onda = function () {
         }
         k--
     }
-    this.maya.umbral.onda = k;
+    this.maya.umbral.onda = SELLO[k];
 }
 
 Oraculo.prototype.Castillo = function () {
@@ -315,6 +315,8 @@ const TZKM = new Oraculo;
 module.exports = TZKM
 TZKM.Tzolkin = TZKM.tzolkin
 
-//TZKM.tzolkin({'kin':221});
+TZKM.tzolkin({'kin':222});
+
+console.log(TZKM.maya)
 
 //TZKM.tzolkin({'dia':15, 'mes':3, 'ano':1995});
